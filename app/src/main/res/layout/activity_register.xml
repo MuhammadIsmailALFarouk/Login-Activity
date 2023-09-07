@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginBottom="20dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Cignifi"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Create New Account"/>
+
+    <EditText
+        android:layout_width="334dp"
+        android:layout_height="39dp"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:layout_marginBottom="15dp"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+
+    <EditText
+        android:layout_width="334dp"
+        android:layout_height="39dp"
+        android:hint="Password"
+        android:textColor="@color/black"
+        android:layout_marginBottom="15dp"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="265dp" />
+    <EditText
+        android:layout_width="334dp"
+        android:layout_height="39dp"
+        android:hint="Confirm Password"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="15dp"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="Register"
+            android:background="@color/purple_200"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="405dp" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="- or sign up with -"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="20dp"
+        android:gravity="center"
+
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="F" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="T" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
